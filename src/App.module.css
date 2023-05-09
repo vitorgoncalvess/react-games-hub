@@ -1,0 +1,244 @@
+.gamePage {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+.gameContainer {
+    border-radius: 5px;
+    height: 90%;
+    width: 60%;
+    display: flex;
+}
+.gameInfo {
+    background-color: #faf8ef;
+    height: 100%;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gameBox {
+    background-color: #bbada0;
+    width: 75%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.gameBlocks {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    height: 97%;
+    width: 100%;
+    margin-left: 1vw;
+}
+.gameBlock {
+    background-color: #cdc1b4;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: calc(2em + 2vh);
+}
+.gameBlocksUp {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    height: 97%;
+    width: 97%;
+    margin-left: 0.7vw;
+}
+.gameBlockUp {
+    background-color: #cdc1b4;
+    height: 19.2vh;
+    width: 9.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: calc(3em + 3vh);
+}
+.gameName {
+    font-size: calc(2.5em + 2.5vh);
+    color: #776e65;
+    margin-top: 25%;
+    font-weight: bold;
+}
+.gamePoints {
+    width: 80%;
+    height: 10%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamePoint {
+    background-color: #beb1a4;
+    height: 100%;
+    width: 49%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #f1e0cf;
+    font-weight: bold;
+}
+.gamePointName {
+    font-size: calc(0.5em + 0.5vh);
+}
+.points {
+    color: white;
+    font-size: calc(1.25em + 1.25vh);
+}
+.newGame {
+    background-color: #8f7a66;
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+    margin-top: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.8em + 0.8vh);
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.newGame:hover {
+    background-color: #4c4742;
+}
+.block2 {
+    background-color: #eee4da;
+    color: #776e65;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block4 {
+    background-color: #ede0c8;
+    color: #776e65;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block8 {
+    background-color: #f2b179;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block16 {
+    background-color: #f59563;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block32 {
+    background-color: #f67c5f;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block64 {
+    background-color: #f65e3b;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block128 {
+    background-color: #edcf72;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block256 {
+    background-color: #edcc61;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block512 {
+    background-color: #edc850;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block1024 {
+    background-color: #fff65e;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.7em + 0.7vh);
+  }
+  
+  .block2048 {
+    background-color: #ffc107;
+    color: #f9f6f2;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.7em + 0.7vh);
+  }
+  
