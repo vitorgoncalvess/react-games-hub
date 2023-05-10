@@ -1,0 +1,15 @@
+.buttonContainer {
+    position: absolute;
+    height: 7.5vh;
+    width: 10vw;
+    top: 2.5vh;
+    left: 1.5vw;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(1em + 1vh);
+    font-family: "Montserrat";
+    color: rgb(102, 92, 79);
+}
