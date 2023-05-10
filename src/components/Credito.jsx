@@ -15,7 +15,7 @@ function Credito(props) {
             <div className={styles.linksContainer}>
                 {props.links.map((link, index) => (
                     <Link to={link.link}>
-                    <img key={index} src={links[link.aplicativo]} className={styles.link} />
+                        <img key={index} src={links[link.aplicativo]} className={styles.link} />
                     </Link>
                 ))}
             </div>
