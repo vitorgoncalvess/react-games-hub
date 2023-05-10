@@ -58,8 +58,8 @@
     grid-template-columns: auto auto auto auto;
     align-items: center;
     height: 97%;
-    width: 97%;
-    margin-left: 0.7vw;
+    width: 98%;
+    margin-left: 0.9vw;
     transition: 0.5s;
 }
 .gameBlockUp {
