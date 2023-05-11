@@ -1,4 +1,4 @@
 # Contribua com o projeto
-## crie um fork do repositorio para você
-## clone o fork do repositorio
-## faça seu jogo!
+1. Crie um fork do repositorio para você
+2. Clone o fork do repositorio
+3. Faça seu jogo!
