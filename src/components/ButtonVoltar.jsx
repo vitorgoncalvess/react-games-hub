@@ -3,7 +3,7 @@ import styles from "./ButtonVoltar.module.css"
 
 function ButtonVoltar(props) {
     return (
-        <Link to={"/hub"}>
+        <Link to={"/"}>
         <div style={{backgroundColor: props.backgroundColor}} className={styles.buttonContainer}>
             <div>Voltar</div>
         </div>

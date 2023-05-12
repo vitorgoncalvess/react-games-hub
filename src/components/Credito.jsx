@@ -13,11 +13,11 @@ function Credito(props) {
         <div className={styles.creditoContainer}>
             <div className={styles.creditoNome}>{props.nome}</div>
             <div className={styles.linksContainer}>
-                {props.links.map((link, index) => (
+                {props.links ? props.links.map((link, index) => (
                     <Link to={link.link}>
-                        <img key={index} src={links[link.aplicativo]} className={styles.link} />
+                        <img key={index} src={links[link.aplicativo]} className={styles.link} alt="" />
                     </Link>
-                ))}
+                )) : null}
             </div>
         </div>
     )

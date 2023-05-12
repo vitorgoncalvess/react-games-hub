@@ -1,0 +1,8 @@
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    background-color: #56F68E;
+}

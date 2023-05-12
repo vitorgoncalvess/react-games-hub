@@ -1,8 +1,8 @@
 import styles from "./Game2048.module.css"
 import { CSSTransition, TransitionGroup } from "react-transition-group"
 import { useState, useEffect } from "react"
-import ButtonVoltar from "../components/ButtonVoltar"
-import Credito from "../components/Credito"
+import ButtonVoltar from "../../../components/ButtonVoltar"
+import Credito from "../../../components/Credito"
 
 function Game2048() {
     const [points, setPoints] = useState(0)

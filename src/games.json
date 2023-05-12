@@ -4,6 +4,11 @@
             "nome": "2048",
             "img": "./assets/img/2048.svg",
             "link": "/2048"
+        },
+        {
+            "nome": "Campo Minado",
+            "img": "./assets/img/minas.png",
+            "link": "/minas"
         }
     ]
 }
