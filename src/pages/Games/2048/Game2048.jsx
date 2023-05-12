@@ -154,7 +154,14 @@ function moverBlocosDireita() {
       }
     }
     let pos = Math.floor(Math.random() * nums.length)
-    gridNew[nums[pos]] = 2
+    let percent = Math.floor(Math.random() * 100)
+    let num = 0
+    if (percent > 80) {
+      num = 4
+    } else {
+      num = 2
+    }
+    gridNew[nums[pos]] = num
     setGrid(gridNew)
   }
 
